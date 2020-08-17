@@ -4,7 +4,7 @@ let fs = require('fs');
 exports["cloud-functions-test"] = (req, res) => {
 
    fs.readFile('jslt', function(err, template) {
-      let message = template;
+      let message = template.toString();
       res.status(200).send(message);
    });
 
