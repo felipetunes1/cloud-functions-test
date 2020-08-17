@@ -1,4 +1,4 @@
-exports.myFirstFuction = (req, res) => {
+exports["cloud-functions-test"] = (req, res) => {
    let message = req.query.message || req.body.message || `Hello World`;
    res.status(200).send(message);
 }
