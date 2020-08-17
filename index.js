@@ -5,6 +5,7 @@ exports["cloud-functions-test"] = (req, res) => {
    console.log(req.body.request);
    console.log(req.body.template);
    let template = unescape(req.body.template)
+   console.log(template);
 
    let message = JSON.parse(jslt.transform(req.body.request, { $fetch: JSON.parse(template) }));
    console.log(message);
