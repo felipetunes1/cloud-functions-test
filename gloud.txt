@@ -1,0 +1,1 @@
+gcloud functions deploy cloud-functions-test --source https://source.developers.google.com/projects/cloud-functions-285317/repos/github_felipetunes1_cloud-functions-test/moveable-aliases/master/paths/  --runtime=nodejs12 --trigger-http
