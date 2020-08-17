@@ -1,6 +1,6 @@
 {
-   "nome" : .name,
-   "sobrenome" : .lastName,
-   "idade" : .age,
-   "nacionalidade" : .nationality
+   "nome" : "{{name}}",
+   "sobrenome" : "{{lastName}}",
+   "idade" : "{{age}}",
+   "nacionalidade" : "{{nationality}}"
 }
