@@ -1,4 +1,6 @@
+var jslt = require("jslt");
+
 exports["cloud-functions-test"] = (req, res) => {
-   let message = req.query.message || req.body.message || `Hello World`;
+   let message = jslt.transform({ someField: "test" }, { $fetch: "{{someField}}" });
    res.status(200).send(message);
 }
