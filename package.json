@@ -16,5 +16,7 @@
     "url": "https://github.com/felipetunes1/cloud-functions-test/issues"
   },
   "homepage": "https://github.com/felipetunes1/cloud-functions-test#readme",
-  "dependencies": {}
+  "dependencies": {
+    "jslt": "^0.2.13"
+  }
 }
